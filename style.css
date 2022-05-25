@@ -1,0 +1,51 @@
+html {
+    font-family: roboto;
+}
+.container-1 {
+    background-color: #1F2937;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid salmon;
+}
+#logo {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;; 
+    border: 1px solid rgb(120, 94, 91);
+
+}
+#menu {
+    flex: 1;
+    border: 1px solid rgb(80, 63, 61);
+    display: flex;
+}
+.menu .link {
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.intro {
+    display: flex;
+
+
+
+}
+.container-1 img {
+    width: 200px
+
+}
+#title {
+
+}
+
+
+
+
