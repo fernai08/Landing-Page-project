@@ -1,34 +1,42 @@
+
 html {
     font-family: roboto;
+
 }
+@media only screen and (max-width: 768px){
+
+    .header .intro{
+        flex-direction: column;
+    }
+
+}
+
 .container-1 {
     background-color: #1F2937;
-    margin-top: 0px;
-    margin-left: 300px;
-    margin-right: 300px;
     color: #F9FAF8;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 80px;
-    
-
+    padding-bottom: 80px;    
 
 }
 .header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    border: 1px solid salmon;
+
+
+
 }
 #logo {
     flex: 1;
     font-size: 24px;
     color: #F9FAF8;; 
-    border: 1px solid rgb(120, 94, 91);
+
 
 }
 #menu {
     flex: 1;
-    border: 1px solid rgb(80, 63, 61);  
+  
     display: flex;
     justify-content: right;
     gap: 20px;
@@ -40,8 +48,8 @@ html {
 }
 .intro {
     display: flex;
-    flex-wrap: wrap;
-    border: 2px solid salmon;
+    flex-direction: row;
+
     justify-content: center;
     align-items: center;
     margin-top: 80px;
@@ -70,45 +78,90 @@ html {
   
 }
 .container-2 {
-    margin-left: 300px;
-    margin-right: 300px;
-    background-color: rgb(165, 122, 65);
-    border: 2px solid #3882F6;
+
+    background-color: whitesmoke;
+
     display: flex;
+
 }
 #subtitle {
 
     flex: 1;
     text-align: center;
-    font-size: 36px;
+
     color: #1F2937;
 
 }
 .container-3 {
-    margin-left: 300px;
-    margin-right: 300px;
-    background-color: rgb(165, 122, 65);
+
+    background-color: white
     border: 2px solid #3882F6;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 75px;
+    padding-left: 200px;
+    padding-right: 200px;
+
 
 
 
 }
 .container-3 div {
-    border: 3px solid #3882F6;
+
+
     border-radius: 5px;
     flex: 1;
-    height: 150px;
+    text-align: center ;
+    margin-bottom: 50px;
+    
 }
-.box-text {
-    color: black;
-    text-align: center;
+
+img {
+    border-radius: 5px;
+}
+
+.container-4 {
+    background-color: #c5c7ca;
+    box-sizing: border-box;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container-5 {
+    box-sizing: border-box;
+
+    background-color: #E5E7EB;
     display: flex;
+    flex-direction: row;
+}
+.container-5 .callbox {
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex: 1;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+.container-5 .callbox div {
+    flex: 1;
+}
+.container-5 .callbox .call {
+    flex: 2;
+    padding-left: 5rem;
+}
+.container-5 button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 
 }
