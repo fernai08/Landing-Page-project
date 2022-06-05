@@ -79,7 +79,7 @@ html {
 }
 .container-2 {
 
-    background-color: whitesmoke;
+    background-color: white;
 
     display: flex;
 
@@ -95,7 +95,6 @@ html {
 .container-3 {
 
     background-color: white;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -133,7 +132,7 @@ img {
 .container-5 {
     box-sizing: border-box;
 
-    background-color: #E5E7EB;
+    background-color: white;
     display: flex;
     flex-direction: row;
 }
