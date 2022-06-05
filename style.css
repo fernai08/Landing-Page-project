@@ -131,7 +131,6 @@ img {
 }
 .container-5 {
     box-sizing: border-box;
-
     background-color: white;
     display: flex;
     flex-direction: row;
